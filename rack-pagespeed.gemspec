@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
     "lib/rack/pagespeed/filters/inline_javascripts.rb",
     "lib/rack/pagespeed/filters/minify_javascripts.rb",
     "lib/rack/pagespeed/store/disk.rb",
-    "lib/rack/pagespeed/store/memcached.rb",
     "lib/rack/pagespeed/store/redis.rb",
     "rack-pagespeed.gemspec",
     "spec/config_spec.rb",
@@ -63,7 +62,6 @@ Gem::Specification.new do |s|
     "spec/pagespeed_spec.rb",
     "spec/spec_helper.rb",
     "spec/store/disk_spec.rb",
-    "spec/store/memcached_spec.rb",
     "spec/store/redis_spec.rb"
   ]
   s.homepage = "http://github.com/juliocesar/rack-pagespeed"
@@ -86,7 +84,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, ["= 2.6.0"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_runtime_dependency(%q<rack>, [">= 0"])
-      s.add_runtime_dependency(%q<memcached>, [">= 0"])
       s.add_runtime_dependency(%q<mime-types>, [">= 0"])
       s.add_runtime_dependency(%q<jsmin>, [">= 0"])
       s.add_development_dependency(%q<rake>, [">= 0"])
@@ -105,7 +102,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, ["= 2.6.0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<rack>, [">= 0"])
-      s.add_dependency(%q<memcached>, [">= 0"])
       s.add_dependency(%q<mime-types>, [">= 0"])
       s.add_dependency(%q<jsmin>, [">= 0"])
       s.add_dependency(%q<rake>, [">= 0"])
@@ -125,7 +121,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rspec>, ["= 2.6.0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<rack>, [">= 0"])
-    s.add_dependency(%q<memcached>, [">= 0"])
     s.add_dependency(%q<mime-types>, [">= 0"])
     s.add_dependency(%q<jsmin>, [">= 0"])
     s.add_dependency(%q<rake>, [">= 0"])
